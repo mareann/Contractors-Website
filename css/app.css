@@ -300,53 +300,20 @@ figcaption {
 	letter-spacing: .20em;
 }
 
-/* #heirloomPainting */
-#ui-id-1 {
-	max-height: 900px;
-}
-
-/* #kitchenRemodel  */
-#ui-id-4 {
-	max-height: 800px;
-}
-
-/* #customWoodwork */
-#ui-id-5 {
-	max-height: 600px;
-}
-
-/* #floorInstallation */
-#ui-id-7 {
-	max-height: 1500px;
-}
-
-/* #expertContractingConsulting */
-/* #handymanHelp */
-/* #cleaningHelp */
-#ui-id-9, #ui-id-10, #ui-id-11 {
-	max-height: 200px;
-}
-
-.ui-accordion-content {
-    max-height: 1200px;
-    overflow: auto;
-    min-height: 100px;
-}
-
 h3.ui-accordion-header {
-	background-image:url(../img/MucciBathroomThinTile.jpg);
-	color:black;
-	font-weight:bold;
-	border:thin solid #ccf6ff;
-	border-radius:0.5em;
+	background-image: url(../img/MucciBathroomThinTile.jpg);
+	color: black;
+	font-weight: bold;
+	border: thin solid #ccf6ff;
+	border-radius: 0.5em;
 	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
     word-break: keep-all;
 }
 
 h3.ui-accordion-header.ui-state-active {
-	color:white;
-	font-weight:bolder;
-	border-color:#007C94; /* medium dark blue */
+	color: white;
+	font-weight: bolder;
+	border-color: #007C94; /* medium dark blue */
 	text-shadow: 0 3px 0 rgba(41,44,47, 0.8);
 	word-break: keep-all;
 }

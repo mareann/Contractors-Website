@@ -391,15 +391,11 @@
        slideWidth:0
     });
 
-
     $( "#accordion" ).accordion({
-     //  heightStyle: "content",
-     //  heightStyle: auto,
+       heightStyle: "content", // height is set to content size of tab
        active: false,
        collapsible: true   
     });
-
-    //$('.accordion').find('[data-content]').resize();
 
     // current location has anchor jennie
     if(location.hash) {
