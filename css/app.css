@@ -294,10 +294,43 @@ figcaption {
 #servicesMenu h4 h3 h2 {
 	font-weight:bold;
 }
-	
+
 #accordion h3 {
-	font-size:1.5em;
+	font-size: 1.5em;
 	letter-spacing: .20em;
+}
+
+/* #heirloomPainting */
+#ui-id-1 {
+	max-height: 900px;
+}
+
+/* #kitchenRemodel  */
+#ui-id-4 {
+	max-height: 800px;
+}
+
+/* #customWoodwork */
+#ui-id-5 {
+	max-height: 600px;
+}
+
+/* #floorInstallation */
+#ui-id-7 {
+	max-height: 1500px;
+}
+
+/* #expertContractingConsulting */
+/* #handymanHelp */
+/* #cleaningHelp */
+#ui-id-9, #ui-id-10, #ui-id-11 {
+	max-height: 200px;
+}
+
+.ui-accordion-content {
+    max-height: 1200px;
+    overflow: auto;
+    min-height: 100px;
 }
 
 h3.ui-accordion-header {
