@@ -45,7 +45,7 @@
   </div>
   <!-- END NAVIGATION BAR  -->
 
-<!--------------------------------------------------------------------------->
+<!-- ---------------------------------------------------------------------- -->
   
   <h2 id="servicesCompanyHeader"><span id="servicesCompanyHeaderSpan">&ensp;&ensp;MUCCI &amp; SON CONTRACTORS&ensp;&ensp;</span></h2>
   <!--BEGIN CAROUSEL-->           
@@ -378,25 +378,8 @@
   <script src="js/app.js"></script>
   <script src="js/jquery.bxslider.min.js"></script> 
   <script>
-  $( function() {
-    $( "#accordion" ).accordion({
-      heightStyle: "content",
-      collapsible: true	  
-    })
-    });
-  </script>
-  <script>
-    function myhideFunction() {
-        var x = document.getElementById('moreText');
-        if (x.style.display === 'none') {
-            x.style.display = 'block';
-        } else {
-            x.style.display = 'none';
-        }
-    }
-  </script>
-  <script>
-    $('.bxslider').bxSlider({
+    $(document).ready(function() {
+      $('.bxslider').bxSlider({
        auto: true,
        autoControls: true, 
        adaptiveHeight:true,
@@ -407,6 +390,30 @@
        maxSlides:1,
        slideWidth:0
     });
+
+
+    $( "#accordion" ).accordion({
+       heightStyle: "content",
+       collapsible: true   
+    });
+
+    // current location has anchor jennie
+    if(location.hash) {
+        // find accordion href ending with that anchor
+        // and trigger a click
+        $(location.hash).trigger('click');
+    }      
+
+    function myhideFunction() {
+        var x = document.getElementById('moreText');
+        if (x.style.display === 'none') {
+            x.style.display = 'block';
+        } else {
+            x.style.display = 'none';
+        }
+    }
+
+    });  //end ready
   </script>
   <!-- END SCRIPTS -->
   
