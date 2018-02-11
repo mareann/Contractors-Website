@@ -3,7 +3,7 @@
 body {
 	background-color:#e6fbff; /* bright blueish */
 }
-img
+/*img*/
 .lightestBlue {
 	color:#e6fbff;
 }
@@ -269,6 +269,10 @@ figcaption {
 	border-radius: 1.5em;
 }
 
+.servImg {
+	padding:0.5rem 0;
+}
+
 #servicesHeaderRow img {
 	display:inline;
 	vertical-align:middle;
@@ -388,21 +392,30 @@ blockquote {
 }
 
 .footer p.slogan {
-	color:#e6fbff;
+	color: #e6fbff;
 	font-size: 1.8rem;
 	margin: 0 0 1rem; 
 }
 
+.footer p.license {
+	color: #e6fbff;
+	font-size: 1rem;
+}
+
 .footer p.copywrite {
-	color:#e6fbff;
+	color: #e6fbff;
 	font-size: 0.875rem;
 	margin: 0; 
+}
+
+.footer .links a:hover {
+    color: white;
 }
 
 .footer .links a {
 	list-style: none;
 	font-weight: bold;
-	color: #ffffff;
+	/*color: #ffffff;*/
 	padding: 3rem 0 2rem;
 	margin: 0; 
 }
