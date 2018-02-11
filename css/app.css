@@ -59,12 +59,20 @@ i[class^="fi"]{
 
   .phoneNumber h4 {
 	  color:white;
-	  background-color:black;
+	  background-color: black;
 	  font-weight:bold;
 	  margin-top:-2em;
 	  text-align:center;
 	  padding-left:5.25em;
 	  padding-right:1.25em;
+  }
+
+  .phoneNumber a {
+  	color: white;
+  }
+
+  .phoneNumber a:hover {
+  	color: #007C94; /* mediumDarkBlue  */
   }
 }
 
@@ -107,6 +115,14 @@ i[class^="fi"]{
 	  padding-left:1.25em;
 	  padding-right:1.25em;
    }
+
+  .phoneNumber a {
+  	color: white;
+  }
+
+  .phoneNumber a:hover {
+  	color: #007C94; /* mediumDarkBlue  */
+  }
 }
 
 #moreText {
@@ -202,7 +218,7 @@ figcaption {
 }
 	
 #mainImage { 
-	margin-top:6em;
+	margin-top:3em;
 }
 	
 #mainParagraph  h2 h3,h4 {
@@ -391,6 +407,10 @@ blockquote {
 	padding: 4rem; 
 }
 
+.footer a {
+	color: #e6fbff; /* light gray */
+}
+
 .footer p.slogan {
 	color: #e6fbff;
 	font-size: 1.8rem;
@@ -409,7 +429,7 @@ blockquote {
 }
 
 .footer .links a:hover {
-    color: white;
+    color: #007C94; /* mediumDarkBlue  */
 }
 
 .footer .links a {
