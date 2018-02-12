@@ -1,11 +1,11 @@
 @charset "utf-8";
 
 body {
-	background-color:#e6fbff; /* bright blueish */
+	background-color: #e6fbff; /* bright blueish */
 }
-/*img*/
+
 .lightestBlue {
-	color:#e6fbff;
+	color: #e6fbff;
 }
 
 .darkBlue {
@@ -13,17 +13,17 @@ body {
 }
 
 .almostBlack {
-	color:rgba(4,6,30,1.00);
+	color: rgba(4,6,30,1.00);
 }
 
 /* change foundation icon color */
 i[class^="fi"]{
-	color:#007C94;
-	font-size:1.5em;
+	color: #007C94;
+	font-size: 1.5em;
 }
 
 .mediumDarkBlueBkgrnd {
-	background-color:#007C94;
+	background-color: #007C94;
 }
 	
 .mediumDarkBlue {
@@ -40,39 +40,39 @@ i[class^="fi"]{
 	display: none;
 }
 
+.accordion-content {
+	padding: 2.2em;
+}
 
 @media only screen and (max-width: 39.99em) {
    #servicesBanner li.listItem a {
-      font-size:1em;
-	  color:green;	
-	  font-weight:bold;
-      background-color:#223054;
+      font-size: 1em;
+	  color: lightgreen;
+      background-color: #223054;
 	  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
    }
   
    #servicesBanner li.listItem a:hover {
-      font-size:1em;
-	  color: #007C94;	
-	  font-weight:bold;
-	  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+      font-size: 1.05em;
+      color: #007C94; /* mediumDarkBlue  */
    }
 
   .phoneNumber h4 {
-	  color:white;
+	  color: white;
 	  background-color: black;
-	  font-weight:bold;
-	  margin-top:-2em;
-	  text-align:center;
-	  padding-left:5.25em;
-	  padding-right:1.25em;
+	  font-weight: bold;
+	  margin-top: -2em;
+	  text-align: center;
+	  padding-left: 5.25em;
+	  padding-right: 1.25em;
   }
 
   .phoneNumber a {
-  	color: white;
+  	  color: white;
   }
 
   .phoneNumber a:hover {
-  	color: #007C94; /* mediumDarkBlue  */
+  	  color: #007C94; /* mediumDarkBlue  */
   }
 }
 
@@ -86,34 +86,32 @@ i[class^="fi"]{
       width: 127px;
       height: 57px;
       position: absolute;
-      left:6em;
+      left: 6em;
       top: .5em;	
       margin-left: 1em;
    }
 
    li.listItem a {
-      font-size:1.25em;
-      color:white;
-      font-weight:bold;
-      background-color:#223054;
+      font-size: 1.25em;
+      color: white;
+      /*font-weight: bold;*/
+      background-color: #223054;
       text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
    }
  
    #servicesBanner li.listItem a:hover {
-      font-size:1em;
-	  color: #007C94;	
-	  font-weight:bold;
-	  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+      font-size: 1.30em;
+      color: #007C94; /* mediumDarkBlue  */
    }
   
    .phoneNumber h4 {
-	  color:white;
-	  font-weight:bold;
-	  float:right;
-      margin-top:-1.75em;
-	  margin-right:2em;
-	  padding-left:1.25em;
-	  padding-right:1.25em;
+	  color: white;
+	  font-weight: bold;
+	  float: right;
+      margin-top: -1.75em;
+	  margin-right: 2em;
+	  padding-left: 1.25em;
+	  padding-right: 1.25em;
    }
 
   .phoneNumber a {
@@ -126,143 +124,144 @@ i[class^="fi"]{
 }
 
 #moreText {
-	display:none;
+	display: none;
 }
   
 p {
-	margin-top:1em;
-	margin-bottom:1em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 	
 figcaption {
-	font-weight:bold;
-	text-align:center;
-	margin-top:0.75em;
-	margin-bottom:2em;
+	color: #223054; /* dark blue */
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.75em;
+	margin-bottom: 2em;
 }	
 	 
 /* top nav bar customer formatting */
 .top-bar, .top-bar ul {
-	color:white;
-	line-height:1.7;
+	color: white;
+	line-height: 1.7;
 	background-color: #223054;
 }
 
 .sbox {
 	border-style: solid;
 	border-width: 0.25em;
-	border-color:darkBlue;	
-	padding:1.0em;
+	border-color: darkBlue;	
+	padding: 1.0em;
 }
 
 .top-bar-right {
-	font-weight:bold;	
+	font-weight: bold;	
 }
 
 .top-bar-right ul {
-	margin-right:2em;
+	margin-right: 2em;
 }
 
 .top-bar-left h4 {
-	width:50%;
-	color:white;
-	line-height:1.4;
+	width: 50%;
+	color: white;
+	line-height: 1.4;
 	margin-left:.5em;
-	display:inline;
-	position:relative;
-	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;	
+	display: inline;
+	position: relative;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;	
 }
 
 #mainMenu a {
-	color:white;
-	font-size:1.25em;
+	color: white;
+	font-size: 1.25em;
 	text-shadow: 0 3px 0 rgba(41,44,47, 0.6);
 }
 
 #mainMenu a:hover {
 	color: #007C94; /* mediumDarkBlue  */
-	font-weight:bold;
+	font-weight: bold;
 }
 
 .full-width-container {
-	width:100%;
+	width: 100%;
 }
 
 /*--------------------------------*/
 /*--------- index.html------------*/	
 /*--------------------------------*/ 
 #servicesBanner {
-	margin-top:1em;
-	margin-bottom:2em;
-	padding-bottom:1em;
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);	   
+	margin-top: 1em;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);	   
 }
 	 
 #servicesBanner h2,h3 {
-	text-align:center;
-	font-weight:700;
+	text-align: center;
+	font-weight: 700;
 	text-shadow: 0 1px 0 rgba(175,236,239,.60); /* color: #AFECEF; */
 }
 	
 #servicesBanner li.listItem {
-	border:thin solid #ccf6ff;
-	border-radius:0.5em;		
+	border: thin solid white;/*#ccf6ff;*/
+	border-radius: 0.5em;		
 }
 
 .extra-top-spacing {
-	margin-top:.75em;	
+	margin-top: .75em;	
 }
 
 .extra-bottom-spacing {
-	margin-bottom:1em;
+	margin-bottom: 1em;
 }
 	
 #mainImage { 
-	margin-top:3em;
+	margin-top: 3em;
 }
 	
 #mainParagraph  h2 h3,h4 {
-	font-weight:bold;
+	font-weight: bold;
 	text-shadow: 0 1px 0 rgba(175,236,239,.60); /* color: #AFECEF; */	
 }
 
 #mainSection2Paragraph  h2 h3 h4 {
-	font-weight:bold;
+	font-weight: bold;
 	text-shadow: 0 1px 0 rgba(175,236,239,.60); /* color: #AFECEF; */		
 }
 
 #mainSection3Paragraph  h2 h3 h4 {
-	font-weight:bold;
+	font-weight: bold;
 	text-shadow: 0 1px 0 rgba(175,236,239,.60); /* color: #AFECEF; */		
 }	
 
 #mainParagraph, #mainSection2Paragraph, #mainSection3Paragraph {
-	margin-top:1em;
-	font-size:1.25em;
+	margin-top: 1em;
+	font-size: 1.25em;
 }
 
 #mainSection2Image, #mainSection3Image {
-	margin-top:2em;
+	margin-top: 2em;
 }
 
 #MainHeader, #MainSection2Header, #MainSection3Header {
-	text-align:center;
-	font-weight:bold;	
-	vertical-align:text-bottom;
+	text-align: center;
+	font-weight: bold;	
+	vertical-align: text-bottom;
 	color: #223054; /* dark blue */
-	margin-top:1em;
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
+	margin-top: 1em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
 }
 	
 #mainCarousel, #mainCarousel2 {
-	width:100%;
-	margin-left:0em;
-	margin-right:0em;
+	width: 100%;
+	margin-left: 0em;
+	margin-right: 0em;
 }
 	 
 #mainCarousel,#mainCarousel2 h2 {
-	text-align:center;
-	width:100%;
+	text-align: center;
+	width: 100%;
 }
 	  
 .bx-wrapper img {
@@ -277,8 +276,8 @@ figcaption {
 /*-------- services.html----------*/
 /*--------------------------------*/
 .AdjoiningImages  {
-	float:left;
-	margin-bottom:1em;
+	float: left;
+	margin-bottom: 1em;
 	border-style: solid;
 	border-color: white;
 	border-width: thick;
@@ -286,33 +285,33 @@ figcaption {
 }
 
 .servImg {
-	padding:0.5rem 0;
+	padding: 0.5em 0;
 }
 
 #servicesHeaderRow img {
-	display:inline;
-	vertical-align:middle;
-	margin-bottom:0.5em;
+	display: inline;
+	vertical-align: middle;
+	margin-bottom: 0.5em;
 }
 
 #servicesHeader {
-	text-align:center;
-	font-weight:bold;	
-	vertical-align:text-bottom;
+	text-align: center;
+	font-weight: bold;	
+	vertical-align: text-bottom;
 	color: #223054; /* dark blue */
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12); 	 
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12); 	 
 }
 
 #servicesCompanyHeader,#servicesCompanyHeader2 {
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
-	text-align:center;
-	font-weight:bold;	
-	vertical-align:text-bottom;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
+	text-align: center;
+	font-weight: bold;	
+	vertical-align: text-bottom;
 	color: #223054; /* dark blue */		 	 	 
 }
 	
 #servicesMenu h4 h3 h2 {
-	font-weight:bold;
+	font-weight: bold;
 }
 
 #accordion h3 {
@@ -333,30 +332,31 @@ h3.ui-accordion-header {
 h3.ui-accordion-header.ui-state-active {
 	color: white;
 	font-weight: bolder;
-	border-color: #007C94; /* medium dark blue */
+	border-color: white; /*#007C94; /* medium dark blue */
 	text-shadow: 0 3px 0 rgba(41,44,47, 0.8);
 	word-break: keep-all;
 }
 
 h3.ui-accordion-header.ui-state-hover {
-	color:white;
-	font-weight:bolder;
+	color: white;
+	font-weight: bolder;
 	text-shadow: 0 3px 0 rgba(41,44,47, 0.8);
 }	
 
 #servicesTestimonials h4 {
-	margin-top:2.0em;
-	color:#2A3D85; /* dark blue */
+	margin-top: 2.0em;
+	color: #2A3D85; /* dark blue */
 }
 	
 blockquote {
-	margin-top:1em;
-	margin-bottom:2em;
-	margin-left:1.0em;
+	margin-top: 1em;
+	margin-bottom: 2em;
+	margin-left: 1.0em;
 	padding: 1em;
 }
-
-/*about.html*/
+/*--------------------------------*/
+/*---------- about.html ----------*/
+/*--------------------------------*/
 #MainCard img {
 	display: block;
 	margin: auto;
@@ -364,38 +364,39 @@ blockquote {
 }
 
 .CardPic img {
-	display:block;
-	align-content:center;
+	display: block;
+	align-content: center;
 }
 
 .card-divider {
-	text-align:center;font-weight:600;
-	background-color:#007C94; 
-	font-size:2em;
+	text-align: center;
+	font-weight: 600;
+	background-color: #007C94; 
+	font-size: 2em;
 }
 
 .card {
-	margin-top:2em;
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
-	border-radius:2px;
+	margin-top: 2em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
+	border-radius: 2px;
 }
 
 #AboutHeaderSpan {
-	text-align:center;
-	margin-top:1em;
+	text-align: center;
+	margin-top: 1em;
 }
 
 #AboutHeader {
-	text-align:center;
-	font-weight:bold;	
-	vertical-align:text-bottom;
+	text-align: center;
+	font-weight: bold;	
+	vertical-align: text-bottom;
 	color: #223054; /* dark blue */
-	margin-top:1em;
-	box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
+	margin-top: 1em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgb(0,0,0,0.12);
 }
 
 .card-section p ul {
-	font-size:1.25em;
+	font-size: 1.25em;
 }
 
 
@@ -411,6 +412,9 @@ blockquote {
 	color: #e6fbff; /* light gray */
 }
 
+.footer a:hover {
+    color: #007C94; /* mediumDarkBlue  */	
+}
 .footer p.slogan {
 	color: #e6fbff;
 	font-size: 1.8rem;
@@ -435,7 +439,6 @@ blockquote {
 .footer .links a {
 	list-style: none;
 	font-weight: bold;
-	/*color: #ffffff;*/
 	padding: 3rem 0 2rem;
 	margin: 0; 
 }
